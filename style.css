@@ -21,15 +21,7 @@ opacity: 75%;
     
 }
 
-.submit-area{
-   
-    top:50%;
-    left:33%;
-    right:0;
-    bottom:0;
-    position: absolute;
-    height: 250px;
-    width:500px;
+.submit-area{  
     padding: 20px;
     flex-direction: column;
     display: flex;
@@ -87,6 +79,7 @@ opacity: 75%;
     border-radius: 3px;
     box-shadow: 1px 2px 0px ;  
     float: right;
-    text-align: justify;
+    text-align: center;
     
 }
+

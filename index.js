@@ -60,9 +60,6 @@ withdrawbtn.addEventListener("click",function(){
 
 
 
-
-
-
 document.getElementById("withdrawAmount").value="";
 
 
