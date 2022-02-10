@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top secure bank</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+ <div class="Head"> 
+    <ul class="nav justify-content-center">
+        <a class="navbar-brand" href="#"><img src="" alt=""> <img id="logo" src="https://library.kissclipart.com/20180924/fe/kissclipart-bank-account-icon-png-clipart-bank-account-compute-d29588e0f1202902.png" alt=" TOP SECURE BANK"> </a>
+        
+      </ul>
+
+      <ul class="nav justify-content-center ">
+        <a class="navbar-brand" href="#"> </a>
+        <li class="nav-item">
+
+          <a class="nav-link active text-dark " aria-current="page" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">FEEATURE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">LOGIN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#" >REGISTER</a>
+        </li>
+      </ul>
+
+ </div>
+
+ <div class="container">
+    <div id="login-area">
+        <div class="div2 ">
+            <h4 class="text-center">WELCOME TO TOP SECURE BANK</h4>
+    </div>
+        
+        <div class="submit-area ">
+            <h6>Login Here</h6>
+            <br>
+            <input type="text" class="form-control" placeholder="Email" required>
+            <br>
+            <input type="password" class="form-control" placeholder="Password" required>
+            <br>
+            <button id="login" class="btn btn-success">Login</button>
+        </div>
+    </div>
+   
+    <div id="trans-area">
+    
+   <div class="row">
+       <div class="col-md-4 ">
+           <div class="deposite color">
+            <h5>Deposite</h5>
+            <h2>TK <span id="currentDeposite"> 00</span></h2>
+           </div>
+       </div>
+       <div class="col-md-4 ">
+           <div class="withdraw color">
+            <h5>WIthdraw</h5>
+            <h2>TK <span id="currentWithdraw">00</span> </h2>
+           </div>
+       </div>
+       <div class="col-md-4">
+          <div class="balance color">
+            <h5>Balance</h5>
+            <h2>TK <span id="currentBalance"> 1000</span> </h2>
+          </div>
+       </div>
+   </div>
+
+   <div class="row d-flex">
+      <div class="submit-area2 col-md-4 ">
+        <h4> Deposite</h4>
+        <br>
+        <input id="depositeAmount" type="text" class="form-control" placeholder="$ You want to deposite">
+        <br>
+        <button id="deposite" class="btn-success"> Deposite</button>
+      </div>
+
+
+       <div class="submit-area2 col-md-4">
+        <h4>Withdraw</h4>
+        <br>
+        <input id="withdrawAmount"   type="text" class="form-control" placeholder="$ You want to withdraw">
+        <br>
+        <button id="withdraw" class="btn-danger">Withdraw</button>
+       </div>
+       <div class="col-md-4 transHistory p-5">
+        <h5> Transiction History</h5>
+        <hr>
+        <h6> Your Last Deposite: <span id="Int">   00</span>TK</h6>
+        <h6> Your Last Withdraw : <span id="Int">  00</span>TK</h6>
+        <h6> Your Previous Balance: <span id="Int">00</span>TK</h6>
+        <h6>Your Current Balnace: <span id="hhh">00</span>TK</h6>
+       
+    
+    </div> 
+           
+   </div>
+
+   
+</div>
+   
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
